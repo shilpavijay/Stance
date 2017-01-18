@@ -1,3 +1,4 @@
 pickle/*
 *.txt
 *.db
+__pycache__
