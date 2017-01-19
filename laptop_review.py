@@ -19,14 +19,16 @@ def classify_review():
 	print("\nPros: \n")
 	for d in rev_dict:		
 		if rev_dict[d] == 'Pros':
-			print(d)
+			print(d,'\n')
 
+	print("--------------------------------------------------------------------------------------------------------------")
 	print("\nCons: \n")
 	for d in rev_dict:		
 		if rev_dict[d] == 'Cons':
-			print(d)
+			print(d,'\n')
 			
 	(op,confidence) = om.opinion(" ".join(all_rev))
+	print("--------------------------------------------------------------------------------------------------------------")
 	print('\n\nOverall Review of this Product has more: ', op)
 	print('How confident are we with the result: ', confidence.__round__(),'%')	
 
