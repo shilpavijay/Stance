@@ -2,3 +2,4 @@ pickle/*
 *.txt
 *.db
 __pycache__
+product_review_from_NLTKcorpus.py
