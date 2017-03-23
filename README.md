@@ -1,4 +1,4 @@
-#Opinion Mining:
+Opinion Mining:
 
 This Project classifies set of product reviews into positive and negative and also calculates the overall opinion along with confidence. NLTK and Scikit-Learn are used here.
 
